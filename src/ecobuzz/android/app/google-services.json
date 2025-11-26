@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696837226113",
+    "project_id": "ecobuzz-app-e5459",
+    "storage_bucket": "ecobuzz-app-e5459.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696837226113:android:12a7c259542538db201780",
+        "android_client_info": {
+          "package_name": "br.com.ecobuzz.ecobuzz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGratif_3DUqabpbNq3iruneH7PGSOT9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
