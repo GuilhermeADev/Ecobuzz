@@ -64,8 +64,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
       }
 
       if (mounted) {
-        // Navega para a próxima tela do fluxo (verificação de telefone)
-        Navigator.pushNamed(context, '/phone_verify');
+        // Após cadastro, ir diretamente para a tela de login (remover verificação por SMS aqui)
+        Navigator.pushNamedAndRemoveUntil(context, '/login', (route) => false);
       }
 
     } on FirebaseAuthException catch (e) {
